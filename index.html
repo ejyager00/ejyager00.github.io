@@ -4,6 +4,8 @@
   <title>Eric Yager</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <!--[if lt IE 9]>
 		<script>
 			document.createElement('header');
@@ -18,18 +20,97 @@
 
 <body>
   <header>
-
+    <nav id="nav">
+      <a href="#main-content" id="name">Eric Yager</a>
+      <a href="#about-me" class='nav-element'>About Me</a>
+      <a href="#resume" class='nav-element'>Resume</a>
+      <a href="#portfolio" class='nav-element'>Portfolio</a>
+    </nav>
   </header>
-  <nav>
-
-  </nav>
   <article>
-
+    <div id=main-content>
+      <div id="text-content">
+        <!--<h2>Welcome!<span class="blinking-cursor">|</span></h2>-->
+        <div id="typedtext"></div>
+        <p>If you've found my page, you're probably here to learn a little more
+        about me. Learn about my <a href="#about-me">interests and hobbies</a>, check
+        out <a href="#resume">my resume</a>, or see <a href="#portfolio">what I've built</a>. If
+        you need to contact me, use <a href="">my form</a> to shoot me an email.
+        </p>
+      </div>
+      <div id="image-content"></div>
+    </div>
+    <div style="height:2px;background-color:rgba(106,142,174,1)"></div>
+    <div id="about-me" class="other-content">
+      <h3>About Me</h3>
+      <p>This is where I will put lots of interesting things about myself when
+        I think of some.</p>
+    </div>
+    <div style="height:2px;background-color:rgba(106,142,174,1)"></div>
+    <div id="resume" class="other-content">
+      <h3>My Resume</h3>
+      <p>This is where I will put the HTML-ified version of my resume when I
+        decide to make it.</p>
+    </div>
+    <div style="height:2px;background-color:rgba(106,142,174,1)"></div>
+    <div id="portfolio" class="other-content">
+      <h3>My Portfolio</h3>
+      <p>This is where I will put the links to all my really cool projects once
+        I actually have some.</p>
+    </div>
+    <div style="height:2px;background-color:rgba(106,142,174,1)"></div>
+    <div id="form" class="other-content">
+      <h3>Contact Me</h3>
+      <p>This is where I will put my contact form once I lear how to make one.</p>
+    </div>
+    <div style="height:2px;background-color:rgba(106,142,174,1)"></div>
   </article>
   <footer>
 
   </footer>
+  <script type="text/javascript">
+    var nav_height=.024*window.innerHeight+30;
+    document.getElementById('nav').style.height=nav_height.toString()+"px";
+
+    window.onscroll = function() {navScroll()};
+
+    var navbar = document.getElementById("nav");
+    var sticky = navbar.offsetTop;
+    function navScroll() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+
+    function addBlink() {
+      document.getElementById("typedtext").innerHTML = 'Welcome!<span class="blinking-cursor">|</span>';
+    }
+    var aText = new Array("Welcome!");
+    var iSpeed = 120; // time delay of print out
+    var iIndex = 0; // start printing array at this posision
+    var iArrLength = aText[0].length; // the length of the text array
+    var iTextPos = 0; // initialise text position
+    var sContents = ''; // initialise contents variable
+    function typewriter()
+    {
+      sContents =  ' ';
+      var destination = document.getElementById("typedtext");
+      destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + '|';
+      if ( iTextPos++ == iArrLength ) {
+        iTextPos = 0;
+        iIndex++;
+        setTimeout("addBlink()", iSpeed);
+      } else {
+        setTimeout("typewriter()", iSpeed);
+      }
+    }
+
+    typewriter();
+
+
+  </script>
 </body>
-
-
 </html>
