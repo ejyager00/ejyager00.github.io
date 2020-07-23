@@ -34,6 +34,18 @@ nav > a {
   #name {
     width: 50vw;
   }
+  #main-content {
+    height: 50vw;
+  }
+  #text-content {
+    width:50vw;
+  }
+  #image-content {
+    width:50vw;
+  }
+  #typedtext {
+    font-size: 80px;
+  }
 }
 @media screen and (max-width: 880px) {
   #nav.responsive {
@@ -63,6 +75,23 @@ nav > a {
     flex-basis: 100%;
     width: 100%;
     position: relative;
+  }
+  #main-content {
+    height: 200vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+  }
+  #text-content {
+    width:100vw;
+    height:100vw;
+  }
+  #image-content {
+    width:100vw;
+    height:100vw;
+  }
+  #typedtext {
+    font-size: 15vw;
   }
 }
 .sticky {
@@ -116,34 +145,31 @@ nav > a {
 }
 #main-content {
   display:flex;
-  height: 50vw;
+  z-index:-1;
 }
 #text-content {
   font-family: 'Roboto Slab', serif;
-  width:46vw;
   display:flex;
   /*background-color: rgba(209,250,255,1);*/
   flex-direction: column;
-  padding: 2vh 2vw 2vh 2vw;
   justify-content: space-evenly;
 }
 #typedtext {
   text-align: center;
   color: rgba(106,142,174,1);
-  font-size: 80px;
   margin: 0px;
   font-family: 'Roboto Mono', serif;
   font-weight: bold;
 }
 #text-content > p {
   font-size: 18px;
+  padding: 0px 2vw 0px 2vw;
 }
 #text-content > p > a {
   color: black;
   font-weight: bold;
 }
 #image-content {
-  width:50vw;
   background-image: url('portrait.jpg');
   background-repeat: no-repeat;
   background-size: cover;

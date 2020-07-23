@@ -85,9 +85,11 @@
     var sticky = navbar.offsetTop;
     function navScroll() {
       if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
+        navbar.classList.add("sticky");
+        document.getElementById("main-content").style.marginTop = nav_height.toString()+"px";
       } else {
         navbar.classList.remove("sticky");
+        document.getElementById("main-content").style.marginTop = "0px";
       }
     }
 
