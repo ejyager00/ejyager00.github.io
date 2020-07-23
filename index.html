@@ -20,12 +20,15 @@
 
 <body>
   <header>
-    <nav id="nav">
+    <nav class="nav" id="nav">
       <a href="#main-content" id="name"><b>Eric Yager</b></a>
       <a href="#about-me" class='nav-element'>About Me</a>
       <a href="#resume" class='nav-element'>Resume</a>
       <a href="#portfolio" class='nav-element'>Portfolio</a>
       <a href="#form" class='nav-element'>Contact Eric</a>
+      <a href="javascript:void(0);" class="icon" onclick="navAdjust()">
+        &#8801;
+      </a>
     </nav>
   </header>
   <article>
@@ -114,7 +117,14 @@
 
     typewriter();
 
-
+    function navAdjust() {
+      var x = document.getElementById("nav");
+      if (!x.classList.contains("responsive")) {
+        x.classList.add("responsive");
+      } else {
+        x.classList.remove("responsive");
+      }
+    }
   </script>
 </body>
 </html>
