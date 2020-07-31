@@ -113,6 +113,13 @@ nav > a {
   input {
     width: 85vw;
   }
+  #resume-wrapper > .with-date {
+    width: 100%;
+  }
+  .exp-date {
+    width: 100%;
+    text-align: left;
+  }
 }
 @media screen and (max-width: 360px) {
   #main-content {
@@ -121,6 +128,37 @@ nav > a {
   }
   #text-content {
     margin-bottom: calc(100px - 30vw);
+  }
+}
+@media screen and (min-width: 996px) {
+  .skills-list > li {
+    width: 25%;
+  }
+  #resume-wrapper > .with-date {
+    width: 75%;
+  }
+  .exp-date {
+    width: 20%;
+    text-align:right;
+  }
+}
+@media screen and (max-width: 995px) and (min-width: 881px) {
+  #resume-wrapper > .with-date {
+    width: 72%;
+  }
+  .exp-date {
+    width: 28%;
+    text-align:right;
+  }
+}
+@media screen and (max-width: 995px) and (min-width: 521px) {
+  .skills-list > li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .skills-list > li {
+    width: 100%;
   }
 }
 .sticky {
@@ -231,6 +269,52 @@ nav > a {
 }
 #resume {
 
+}
+#resume-wrapper {
+  margin-right: 5vw;
+  margin-left: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+#resume-wrapper > h4 {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  width: 100%;
+  margin: 10px 0px 5px 0px;
+}
+.exp-head {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 5px 0px 5px 0px;
+  padding: 0px;
+}
+#resume-wrapper > .no-date {
+  width: 100%;
+}
+.exp-date {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+}
+.exp-subhead {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+}
+.exp-list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  width: 100%;
+}
+.skills-list{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 #portfolio {
 
