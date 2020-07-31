@@ -25,10 +25,8 @@
       <a href="#about-me" class='nav-element'>About Me</a>
       <a href="#resume" class='nav-element'>Resume</a>
       <a href="#portfolio" class='nav-element'>Portfolio</a>
-      <a href="#form" class='nav-element'>Contact Eric</a>
-      <a href="javascript:void(0);" class="icon" onclick="navAdjust()">
-        &#8801;
-      </a>
+      <a href="#form" class='nav-element'>Contact Me</a>
+      <a href="javascript:void(0);" class="icon" onclick="navAdjust()">&#8801;</a>
     </nav>
   </header>
   <article>
@@ -52,11 +50,14 @@
     <div id="resume" class="other-content">
       <h3>My Resume</h3>
       <p>This is where I will put the HTML-ified version of my resume when I decide to make it.</p>
+      <div id="resume-wrapper">
+
+      </div>
     </div>
     <div id="portfolio" class="other-content">
       <h3>My Portfolio</h3>
-      <p>I don't have any projects on the on the web for viewing right now, but
-        you can check out my <a href="https://github.com/ejyager00/">GitHub page.</a></p>
+      <p>None of my projects are in a form convenient for viewing on the web right now, but
+        make sure to check out my <a href="https://github.com/ejyager00/">GitHub page</a>.</p>
     </div>
     <div id="form" class="other-content">
       <h3>Contact Me</h3>
@@ -65,14 +66,13 @@
           <input type="hidden" name="_subject" value="Contact request from personal website">
           <input type="text" name="name" placeholder="Your name" required><br>
           <input type="email" name="_replyto" placeholder="Email address" required><br>
-          <textarea name="message" placeholder="Your message for Eric" required></textarea><br>
+          <textarea name="message" placeholder="Your message" required></textarea><br>
           <button type="submit">Send</button>
         </form>
       </div>
     </div>
   </article>
   <footer>
-
   </footer>
   <script type="text/javascript">
     var nav_height=.024*window.innerHeight+30;

@@ -114,6 +114,15 @@ nav > a {
     width: 85vw;
   }
 }
+@media screen and (max-width: 360px) {
+  #main-content {
+    padding-top: calc(100px - 20vw);
+    height: calc(150vw + 100px);
+  }
+  #text-content {
+    margin-bottom: calc(100px - 30vw);
+  }
+}
 .sticky {
   position: fixed;
   top: 0;
