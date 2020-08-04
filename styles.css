@@ -500,8 +500,36 @@ button:hover {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
+#social-media {
+  font-size: 40px;
+}
+.fa {
+  padding: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border: solid;
+  border-color: rgba(21,34,51,1);
+  color: white;
+}
+.fa:hover {
+  opacity: 0.8;
+  color: rgba(21,34,51,1);
+}
+.fa-facebook {
+  background: #3B5998;
+}
+.fa-twitter {
+  background: #55ACEE;
+}
+.fa-linkedin {
+  background: #2867B2;
+}
 footer {
   height: 30px;
+  margin-top: 30px;
 }
 
 .blinking-cursor {
