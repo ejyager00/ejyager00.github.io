@@ -31,23 +31,24 @@
     </nav>
   </header>
   <article>
-    <div id=main-content>
+    <div id="main-content">
+      <div id="image-content"></div>
       <div id="text-content">
-        <!--<h2>Welcome!<span class="blinking-cursor">|</span></h2>-->
-        <div id="typedtext"></div>
+        <div id="typedtext">&nbsp;</div>
         <p>If you've found my page, you're probably here to learn a little more
         about me. Learn about my <a href="#about-me">interests and hobbies</a>, check
         out <a href="#resume">my resume</a>, or see <a href="#portfolio">what I've built</a>. If
         you need to contact me, use <a href="#form">my form</a> to shoot me an email.
         </p>
       </div>
-      <div id="image-content"></div>
     </div>
     <div id="about-me" class="other-content">
       <h3>About Me</h3>
       <p>This is where I will put lots of interesting things about myself when
         I think of some.</p>
+      <img src="portrait.jpg">
     </div>
+    <div class="between"></div>
     <div id="resume" class="other-content">
       <h3>My Resume</h3>
       <p>This is a slightly modified version of my resume. If you're looking for
@@ -143,11 +144,13 @@
 
       </div>
     </div>
+    <div class="between"></div>
     <div id="portfolio" class="other-content">
       <h3>My Portfolio</h3>
       <p>None of my projects are in a form convenient for viewing on the web right now, but
         make sure to check out my <a href="https://github.com/ejyager00/">GitHub page</a>.</p>
     </div>
+    <div class="between"></div>
     <div id="form" class="other-content">
       <h3>Contact Me</h3>
       <div id="form-container">
@@ -166,16 +169,26 @@
   <script type="text/javascript">
     var nav_height=.024*window.innerHeight+30;
     document.getElementById('nav').style.height=nav_height.toString()+"px";
+    document.getElementsByTagName('HTML')[0].style.scrollPaddingTop = nav_height.toString()+"px";
+
+    if (window.innerWidth>339) {
+      var textmargintop = .5*(document.getElementById("image-content").offsetHeight-document.getElementById("text-content").offsetHeight-.02*window.innerWidth);
+      document.getElementById("text-content").style.marginTop = textmargintop.toString()+"px";
+    }
+    window.addEventListener("resize", function() {
+      if (window.innerWidth>339) {
+        var textmargintop = .5*(document.getElementById("image-content").offsetHeight-document.getElementById("text-content").offsetHeight-.02*window.innerWidth);
+        document.getElementById("text-content").style.marginTop = textmargintop.toString()+"px";
+      }
+    });
 
     window.onscroll = function() {navScroll()};
-
     var navbar = document.getElementById("nav");
-    var sticky = navbar.offsetTop;
     function navScroll() {
-      if (window.pageYOffset >= sticky) {
+      if (window.pageYOffset != 0) {
         navbar.classList.add("sticky");
         document.getElementById("main-content").style.marginTop = nav_height.toString()+"px";
-      } else {
+      } else if (window.pageYOffset == 0) {
         navbar.classList.remove("sticky");
         document.getElementById("main-content").style.marginTop = "0px";
       }
@@ -212,6 +225,15 @@
         x.classList.add("responsive");
       } else {
         x.classList.remove("responsive");
+      }
+    }
+
+    var nav_links = document.getElementsByClassName("nav-element");
+    for (var i = 0; i < nav_links.length; i++) {
+      nav_links[i].onclick = function() {
+        if (window.innerWidth<881) {
+          navAdjust();
+        }
       }
     }
   </script>
