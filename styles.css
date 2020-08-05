@@ -299,6 +299,7 @@ nav > a {
 @media screen and (min-width: 1020px) {
   #about-me > img {
     width: 475px;
+    height: 475px;
     margin-left: 25px;
     margin-right: calc(50vw - 500px);
   }
@@ -306,6 +307,7 @@ nav > a {
 @media screen and (max-width: 1019px) {
   #about-me > img {
     width: 80vw;
+    height: 80vw;
     margin-left: calc(10vw - 10px);
     margin-right: calc(10vw - 10px);
   }
