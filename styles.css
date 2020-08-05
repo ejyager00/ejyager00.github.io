@@ -286,6 +286,9 @@ nav > a {
 #about-me > h3 {
   width: 100%;
 }
+#about-me > p {
+  margin-top: 0px;
+}
 @media screen and (min-width: 1020px) {
   #about-me > p {
     width: 500px;
