@@ -192,9 +192,9 @@
         </form>
       </div>
       <div id="social-media">
-        <a href="https://www.facebook.com/eric.yager.750" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/EricYager4" class="fa fa-twitter"></a>
         <a href="https://www.linkedin.com/in/eric-yager-34b91714b/" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/EricYager4" class="fa fa-twitter"></a>
+        <a href="https://www.facebook.com/eric.yager.750" class="fa fa-facebook"></a>
       </div>
     </div>
   </article>
@@ -224,7 +224,7 @@
     document.getElementsByTagName('HTML')[0].style.scrollPaddingTop = nav_height.toString()+"px";
 
     var welcome_height=window.innerHeight-nav_height;
-    if (welcome_height>window.innerWidth) welcome_height=window.innerHeight;
+    if (welcome_height>window.innerWidth) welcome_height=window.innerWidth;
     document.getElementById("main-content").style.height = welcome_height.toString()+"px";
     if (window.innerWidth>339) {
       var textmargintop = .5*(document.getElementById("image-content").offsetHeight-document.getElementById("text-content").offsetHeight-.02*window.innerWidth);
