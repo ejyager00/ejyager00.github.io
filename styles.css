@@ -132,7 +132,7 @@ nav > a {
   z-index:-1;
   overflow: hidden;
 }
-@media screen and (max-width: 880px) {
+/*@media screen and (max-width: 880px) {
   #main-content {
     height: 100vw;
   }
@@ -141,7 +141,7 @@ nav > a {
   #main-content {
     height: 50vw;
   }
-}
+}*/
 #text-content {
   font-family: 'Roboto Slab', serif;
   display:flex;
@@ -208,7 +208,7 @@ nav > a {
   font-weight: bold;
 }
 #image-content {
-  background-image: url('background.png');
+  background-image: url('background_square.png');
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(7px);
@@ -216,7 +216,7 @@ nav > a {
   background-position: center;
   width: 100vw;
 }
-@media screen and (max-width: 880px) {
+/*@media screen and (max-width: 880px) {
   #image-content {
     background-image: url('background_narrow.png');
   }
@@ -225,7 +225,7 @@ nav > a {
   #image-content {
     background-image: url('background.png');
   }
-}
+}*/
 .other-content {
   margin: 0px;
   display: flex;
