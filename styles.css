@@ -490,18 +490,18 @@ button:hover {
   color: black;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgba(7,11,17,1);
+  color: rgba(7,11,17,.75);
   opacity: 1; /* Firefox */
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: rgba(7,11,17,1);
+  color: rgba(7,11,17,.75);
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: rgba(7,11,17,1);
+  color: rgba(7,11,17,.75);
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
