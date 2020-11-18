@@ -78,8 +78,13 @@ nav > a {
   }
 }
 #name:hover {
-  background-color: rgba(84,102,117,1);
-  color: rgba(11,37,69,1);
+  /*background-color: rgba(84,102,117,1);
+  color: rgba(11,37,69,1);*/
+  font-weight: bold;
+  box-sizing: border-box;
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: rgba(219, 224, 218, 1);
 }
 .icon {
   width: 10vw;
@@ -107,8 +112,12 @@ nav > a {
   }
 }
 .icon:hover {
-  background-color: rgba(84,102,117,1);
-  color: rgba(11,37,69,1);
+  /*background-color: rgba(84,102,117,1);
+  color: rgba(11,37,69,1);*/
+  box-sizing: border-box;
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: rgba(219, 224, 218, 1);
 }
 .nav-element {
   width: 12.5vw;
@@ -122,8 +131,12 @@ nav > a {
   background-color: rgba(21,34,51,1);
 }
 .nav-element:hover {
-  background-color: rgba(84,102,117,1);
-  color: rgba(11,37,69,1);
+  /*background-color: rgba(84,102,117,1);
+  color: rgba(11,37,69,1);*/
+  box-sizing: border-box;
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: rgba(219, 224, 218, 1);
   font-weight: bold;
 }
 #main-content {
