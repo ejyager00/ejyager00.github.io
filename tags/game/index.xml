@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>game on Eric Yager</title>
-    <link>http://ejyager00.github.io/tags/game/</link>
+    <link>https://ejyager00.github.io/tags/game/</link>
     <description>Recent content in game on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ejyager00.github.io/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/game/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go in Go</title>
-      <link>http://ejyager00.github.io/project/go-go/</link>
+      <link>https://ejyager00.github.io/project/go-go/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/go-go/</guid>
+      <guid>https://ejyager00.github.io/project/go-go/</guid>
       
       <description>&lt;p&gt;This project is intended to help me learn about databases and web development with Go. For now it is just a command line app implementation of the game &lt;a href=&#34;https://en.wikipedia.org/wiki/Go_(game)&#34;&gt;Go&lt;/a&gt; in the programming language &lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt;. In the future, I hope to add a database for storing old games, an API server for playing games, and a simple frontend to interact with the API.&lt;/p&gt;
 &lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
@@ -109,10 +109,10 @@ White wins, 7.5 to 1.0
     
     <item>
       <title>Nerdle</title>
-      <link>http://ejyager00.github.io/project/nerdle/</link>
+      <link>https://ejyager00.github.io/project/nerdle/</link>
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/nerdle/</guid>
+      <guid>https://ejyager00.github.io/project/nerdle/</guid>
       
       <description>&lt;p&gt;You may recall in December 2021 the viral internet game Wordle, in which players try to guess a five letter word in 6 guesses. Each guess, they receive hints about the correctness of their current guess. The widespread popularity of Wordle led to many clones and spinoffs, one of which is called &lt;a href=&#34;https://nerdlegame.com/&#34;&gt;Nerdle&lt;/a&gt;. In Nerdle, rather than attempting to guess a word, players attempt to guess an equation.&lt;/p&gt;
 &lt;p&gt;I decided to implement my own version of Nerdle that supports equations of multiple lengths. This was my first foray into backend programming in Go. I ended up with a server that has an API endpoint for gameplay and serves a simple frontend. I also had fun implementing the equation parser in Go.&lt;/p&gt;
@@ -131,10 +131,10 @@ These are the rules and options users can configure for my Nerdle.&lt;/p&gt;
     
     <item>
       <title>Space Shooter</title>
-      <link>http://ejyager00.github.io/project/space-shooter/</link>
+      <link>https://ejyager00.github.io/project/space-shooter/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/space-shooter/</guid>
+      <guid>https://ejyager00.github.io/project/space-shooter/</guid>
       
       <description>&lt;p&gt;During the Fall 2020, Spring 2021 school year, Valparaiso University&amp;rsquo;s student chapter of the Association for Computing Machinery (of which I was vice president) worked on a team project to develop a video game. Ultimately, we decided to use Python and PyGame to make the project more accessible to members with little programming experience. We decided to make a space-themed endless third person shooter.&lt;/p&gt;
 &lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
@@ -149,10 +149,10 @@ Here is a simple demo of the gameplay in the game we created.&lt;/p&gt;
     
     <item>
       <title>Ultimate Tic-Tac-Toe</title>
-      <link>http://ejyager00.github.io/project/ultimate-ttt/</link>
+      <link>https://ejyager00.github.io/project/ultimate-ttt/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/ultimate-ttt/</guid>
+      <guid>https://ejyager00.github.io/project/ultimate-ttt/</guid>
       
       <description>&lt;p&gt;During the Fall 2020, Spring 2021 school year, Valparaiso University&amp;rsquo;s math club (of which I was vice president) worked on research into the tic-tac-toe variant &lt;a href=&#34;https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe&#34;&gt;ultimate-tic-tac-toe&lt;/a&gt;. I had already written a python program for basic command line gameplay, but I also wanted to write a faster implementation for potential deep learning research purposes. We did not end up with any super exciting results, but it was still a fun project to work on.&lt;/p&gt;
 &lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;

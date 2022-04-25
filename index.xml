@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eric Yager</title>
-    <link>http://ejyager00.github.io/</link>
+    <link>https://ejyager00.github.io/</link>
     <description>Recent content on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ejyager00.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go in Go</title>
-      <link>http://ejyager00.github.io/project/go-go/</link>
+      <link>https://ejyager00.github.io/project/go-go/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/go-go/</guid>
+      <guid>https://ejyager00.github.io/project/go-go/</guid>
       
       <description>&lt;p&gt;This project is intended to help me learn about databases and web development with Go. For now it is just a command line app implementation of the game &lt;a href=&#34;https://en.wikipedia.org/wiki/Go_(game)&#34;&gt;Go&lt;/a&gt; in the programming language &lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt;. In the future, I hope to add a database for storing old games, an API server for playing games, and a simple frontend to interact with the API.&lt;/p&gt;
 &lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
@@ -109,10 +109,10 @@ White wins, 7.5 to 1.0
     
     <item>
       <title>Encryption with Go</title>
-      <link>http://ejyager00.github.io/project/go-encryption/</link>
+      <link>https://ejyager00.github.io/project/go-encryption/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/go-encryption/</guid>
+      <guid>https://ejyager00.github.io/project/go-encryption/</guid>
       
       <description>&lt;p&gt;In Spring 2022, I took a course about cryptography. For some of the assignments, we needed to implement encryption algorithms. I did not implement any that would be considered secure by modern standards. However, I did code up a couple of command line apps in Go to encrypt using cipher techniques. The techniques I implemented are the classic Caesar cipher and the historically-renowned Vigenère cipher.&lt;/p&gt;
 &lt;p&gt;These projects weren&amp;rsquo;t too challenging, but I learned about command line flags in Go and practiced file handling.&lt;/p&gt;
@@ -139,10 +139,10 @@ Encrypting and decrypting with a vigenere cipher.&lt;/p&gt;
     
     <item>
       <title>Lattice Paths</title>
-      <link>http://ejyager00.github.io/project/lattice-paths/</link>
+      <link>https://ejyager00.github.io/project/lattice-paths/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/lattice-paths/</guid>
+      <guid>https://ejyager00.github.io/project/lattice-paths/</guid>
       
       <description>&lt;p&gt;During the Fall 2021, Spring 2022 school year, I worked on a research team studing the mathematical concept of &lt;em&gt;k&lt;/em&gt;-distinct &lt;a href=&#34;https://en.wikipedia.org/wiki/Lattice_path#North-East_lattice_paths&#34;&gt;lattice paths&lt;/a&gt;. Our research involved finding maximum cardinality sets of lattice paths on a paricular size lattice such that no path overlapped with another on &lt;em&gt;k&lt;/em&gt; or more edges. We will be publishing the results of our research in the near future.&lt;/p&gt;
 &lt;p&gt;I led the programming effort on this project to develop code to test a greedy algorithm and a brute force algorithm for generating maximum sets of lattice paths. This was the first project I worked on for which I made extensive use of Go. I initially wrote most of the codebase in Python, but it was not fast enough for extended work on brute-force computation.&lt;/p&gt;
@@ -156,10 +156,10 @@ Encrypting and decrypting with a vigenere cipher.&lt;/p&gt;
     
     <item>
       <title>Nerdle</title>
-      <link>http://ejyager00.github.io/project/nerdle/</link>
+      <link>https://ejyager00.github.io/project/nerdle/</link>
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/nerdle/</guid>
+      <guid>https://ejyager00.github.io/project/nerdle/</guid>
       
       <description>&lt;p&gt;You may recall in December 2021 the viral internet game Wordle, in which players try to guess a five letter word in 6 guesses. Each guess, they receive hints about the correctness of their current guess. The widespread popularity of Wordle led to many clones and spinoffs, one of which is called &lt;a href=&#34;https://nerdlegame.com/&#34;&gt;Nerdle&lt;/a&gt;. In Nerdle, rather than attempting to guess a word, players attempt to guess an equation.&lt;/p&gt;
 &lt;p&gt;I decided to implement my own version of Nerdle that supports equations of multiple lengths. This was my first foray into backend programming in Go. I ended up with a server that has an API endpoint for gameplay and serves a simple frontend. I also had fun implementing the equation parser in Go.&lt;/p&gt;
@@ -178,10 +178,10 @@ These are the rules and options users can configure for my Nerdle.&lt;/p&gt;
     
     <item>
       <title>Space Shooter</title>
-      <link>http://ejyager00.github.io/project/space-shooter/</link>
+      <link>https://ejyager00.github.io/project/space-shooter/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/space-shooter/</guid>
+      <guid>https://ejyager00.github.io/project/space-shooter/</guid>
       
       <description>&lt;p&gt;During the Fall 2020, Spring 2021 school year, Valparaiso University&amp;rsquo;s student chapter of the Association for Computing Machinery (of which I was vice president) worked on a team project to develop a video game. Ultimately, we decided to use Python and PyGame to make the project more accessible to members with little programming experience. We decided to make a space-themed endless third person shooter.&lt;/p&gt;
 &lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
@@ -196,10 +196,10 @@ Here is a simple demo of the gameplay in the game we created.&lt;/p&gt;
     
     <item>
       <title>Ultimate Tic-Tac-Toe</title>
-      <link>http://ejyager00.github.io/project/ultimate-ttt/</link>
+      <link>https://ejyager00.github.io/project/ultimate-ttt/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/ultimate-ttt/</guid>
+      <guid>https://ejyager00.github.io/project/ultimate-ttt/</guid>
       
       <description>&lt;p&gt;During the Fall 2020, Spring 2021 school year, Valparaiso University&amp;rsquo;s math club (of which I was vice president) worked on research into the tic-tac-toe variant &lt;a href=&#34;https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe&#34;&gt;ultimate-tic-tac-toe&lt;/a&gt;. I had already written a python program for basic command line gameplay, but I also wanted to write a faster implementation for potential deep learning research purposes. We did not end up with any super exciting results, but it was still a fun project to work on.&lt;/p&gt;
 &lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
@@ -402,10 +402,10 @@ The board looks like this:
     
     <item>
       <title>Dwyer Google Migration</title>
-      <link>http://ejyager00.github.io/project/dwyer-google-migration/</link>
+      <link>https://ejyager00.github.io/project/dwyer-google-migration/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/dwyer-google-migration/</guid>
+      <guid>https://ejyager00.github.io/project/dwyer-google-migration/</guid>
       
       <description>&lt;p&gt;In Spring of 2020, I took a project-based class called Software Design and Development. My main project for the class involved helping a local business, Dwyer instruments.
 Dwyer Instruments decided to migrate from a largely on-premises, Microsoft Office and Windows based infrastructure to Google Cloud based services. The transition disrupted a number of workflows and habits, impacting their overall business processes and creating friction for adoption by their workforce.
@@ -433,10 +433,10 @@ So, I developed a security ticket add-on for Gmail that allows Dwyer employees t
     
     <item>
       <title>Paint</title>
-      <link>http://ejyager00.github.io/project/paint/</link>
+      <link>https://ejyager00.github.io/project/paint/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/paint/</guid>
+      <guid>https://ejyager00.github.io/project/paint/</guid>
       
       <description>&lt;p&gt;Nearly everyone is familiar with Microsoft&amp;rsquo;s classic image editing application, MS Paint. In Fall of 2019, I took the Valparaiso University CS department&amp;rsquo;s infamous course on object-oriented programming, CS250. The first challenge: implement a production-grade image editing application similar to MS Paint using Java and JavaFX.&lt;/p&gt;
 &lt;p&gt;I was exceptionally proud of this project when I first finished it, and I still think it&amp;rsquo;s pretty good. I implemented quite a few features beyond what was required, and the professor complemented my project architecture and documentation, as well. I&amp;rsquo;m no longer a huge fan of programming in Java, but I learned a lot about object-oriented programming in particular and programming in general. I used version control and unit testing to keep the codebase maintainable.
@@ -474,10 +474,10 @@ In addition to regular area fill, some fun features include random fill and imag
     
     <item>
       <title>About</title>
-      <link>http://ejyager00.github.io/about/</link>
+      <link>https://ejyager00.github.io/about/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/about/</guid>
+      <guid>https://ejyager00.github.io/about/</guid>
       
       <description>&lt;h1 id=&#34;about-eric-yager&#34;&gt;About Eric Yager&lt;/h1&gt;
 &lt;div id=&#34;inpage-nav&#34;&gt;

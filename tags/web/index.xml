@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web on Eric Yager</title>
-    <link>http://ejyager00.github.io/tags/web/</link>
+    <link>https://ejyager00.github.io/tags/web/</link>
     <description>Recent content in web on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ejyager00.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nerdle</title>
-      <link>http://ejyager00.github.io/project/nerdle/</link>
+      <link>https://ejyager00.github.io/project/nerdle/</link>
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/nerdle/</guid>
+      <guid>https://ejyager00.github.io/project/nerdle/</guid>
       
       <description>&lt;p&gt;You may recall in December 2021 the viral internet game Wordle, in which players try to guess a five letter word in 6 guesses. Each guess, they receive hints about the correctness of their current guess. The widespread popularity of Wordle led to many clones and spinoffs, one of which is called &lt;a href=&#34;https://nerdlegame.com/&#34;&gt;Nerdle&lt;/a&gt;. In Nerdle, rather than attempting to guess a word, players attempt to guess an equation.&lt;/p&gt;
 &lt;p&gt;I decided to implement my own version of Nerdle that supports equations of multiple lengths. This was my first foray into backend programming in Go. I ended up with a server that has an API endpoint for gameplay and serves a simple frontend. I also had fun implementing the equation parser in Go.&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>desktop-app on Eric Yager</title>
-    <link>http://ejyager00.github.io/tags/desktop-app/</link>
+    <link>https://ejyager00.github.io/tags/desktop-app/</link>
     <description>Recent content in desktop-app on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ejyager00.github.io/tags/desktop-app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/desktop-app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paint</title>
-      <link>http://ejyager00.github.io/project/paint/</link>
+      <link>https://ejyager00.github.io/project/paint/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://ejyager00.github.io/project/paint/</guid>
+      <guid>https://ejyager00.github.io/project/paint/</guid>
       
       <description>&lt;p&gt;Nearly everyone is familiar with Microsoft&amp;rsquo;s classic image editing application, MS Paint. In Fall of 2019, I took the Valparaiso University CS department&amp;rsquo;s infamous course on object-oriented programming, CS250. The first challenge: implement a production-grade image editing application similar to MS Paint using Java and JavaFX.&lt;/p&gt;
 &lt;p&gt;I was exceptionally proud of this project when I first finished it, and I still think it&amp;rsquo;s pretty good. I implemented quite a few features beyond what was required, and the professor complemented my project architecture and documentation, as well. I&amp;rsquo;m no longer a huge fan of programming in Java, but I learned a lot about object-oriented programming in particular and programming in general. I used version control and unit testing to keep the codebase maintainable.
