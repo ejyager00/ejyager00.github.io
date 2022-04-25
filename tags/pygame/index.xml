@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pygame on Eric Yager</title>
+    <link>http://ejyager00.github.io/tags/pygame/</link>
+    <description>Recent content in pygame on Eric Yager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ejyager00.github.io/tags/pygame/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Space Shooter</title>
+      <link>http://ejyager00.github.io/project/space-shooter/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ejyager00.github.io/project/space-shooter/</guid>
+      
+      <description>&lt;p&gt;During the Fall 2020, Spring 2021 school year, Valparaiso University&amp;rsquo;s student chapter of the Association for Computing Machinery (of which I was vice president) worked on a team project to develop a video game. Ultimately, we decided to use Python and PyGame to make the project more accessible to members with little programming experience. We decided to make a space-themed endless third person shooter.&lt;/p&gt;
+&lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;The source code for this project is available on &lt;a href=&#34;https://github.com/valpo-acm/valpo-acm-game&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;pictures&#34;&gt;Pictures&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;gameplay.gif&#34; alt=&#34;Space shooter gameplay.&#34;&gt;
+&lt;br&gt;
+Here is a simple demo of the gameplay in the game we created.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

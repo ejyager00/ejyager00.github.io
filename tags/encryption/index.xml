@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>encryption on Eric Yager</title>
+    <link>http://ejyager00.github.io/tags/encryption/</link>
+    <description>Recent content in encryption on Eric Yager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ejyager00.github.io/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encryption with Go</title>
+      <link>http://ejyager00.github.io/project/go-encryption/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ejyager00.github.io/project/go-encryption/</guid>
+      
+      <description>&lt;p&gt;In Spring 2022, I took a course about cryptography. For some of the assignments, we needed to implement encryption algorithms. I did not implement any that would be considered secure by modern standards. However, I did code up a couple of command line apps in Go to encrypt using cipher techniques. The techniques I implemented are the classic Caesar cipher and the historically-renowned Vigenère cipher.&lt;/p&gt;
+&lt;p&gt;These projects weren&amp;rsquo;t too challenging, but I learned about command line flags in Go and practiced file handling.&lt;/p&gt;
+&lt;h2 id=&#34;caesar-cipher&#34;&gt;Caesar Cipher&lt;/h2&gt;
+&lt;h3 id=&#34;source-code&#34;&gt;Source Code&lt;/h3&gt;
+&lt;p&gt;The source code for this project is available on &lt;a href=&#34;https://github.com/ejyager00/caesar&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;pictures&#34;&gt;Pictures&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;caesarEncryption.png&#34; alt=&#34;Encrypting with a caesar cipher.&#34;&gt;
+&lt;br&gt;
+Caesar cipher program encrypting a message.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;caesarDecryption.png&#34; alt=&#34;Decrypting with a caesar cipher.&#34;&gt;
+&lt;br&gt;
+Caesar cipher program decrypting a message.&lt;/p&gt;
+&lt;h2 id=&#34;vigenère-cipher&#34;&gt;Vigenère Cipher&lt;/h2&gt;
+&lt;h3 id=&#34;source-code-1&#34;&gt;Source Code&lt;/h3&gt;
+&lt;p&gt;The source code for this project is available on &lt;a href=&#34;https://github.com/ejyager00/vigenere&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;pictures-1&#34;&gt;Pictures&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;vigenereDemo.png&#34; alt=&#34;Encrypting and decrypting with a caesar cipher.&#34;&gt;
+&lt;br&gt;
+Encrypting and decrypting with a vigenere cipher.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

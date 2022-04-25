@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javafx on Eric Yager</title>
+    <link>http://ejyager00.github.io/tags/javafx/</link>
+    <description>Recent content in javafx on Eric Yager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ejyager00.github.io/tags/javafx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paint</title>
+      <link>http://ejyager00.github.io/project/paint/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ejyager00.github.io/project/paint/</guid>
+      
+      <description>&lt;p&gt;Nearly everyone is familiar with Microsoft&amp;rsquo;s classic image editing application, MS Paint. In Fall of 2019, I took the Valparaiso University CS department&amp;rsquo;s infamous course on object-oriented programming, CS250. The first challenge: implement a production-grade image editing application similar to MS Paint using Java and JavaFX.&lt;/p&gt;
+&lt;p&gt;I was exceptionally proud of this project when I first finished it, and I still think it&amp;rsquo;s pretty good. I implemented quite a few features beyond what was required, and the professor complemented my project architecture and documentation, as well. I&amp;rsquo;m no longer a huge fan of programming in Java, but I learned a lot about object-oriented programming in particular and programming in general. I used version control and unit testing to keep the codebase maintainable.
+This was my first big experience with agile development principles, as Professor Nick Rosasco organized the project into multiple sprins of complex and regularly updated requirements.&lt;/p&gt;
+&lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;The source code for this project is available on &lt;a href=&#34;https://github.com/ejyager00/paint&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;pictures&#34;&gt;Pictures&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;saveDialogue.png&#34; alt=&#34;Saving an image.&#34;&gt;
+&lt;br&gt;
+Images can be saved in PNG or JPG format.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;saveWarning.png&#34; alt=&#34;Losing unsaved changes warning.&#34;&gt;
+&lt;br&gt;
+The program will intelligently warn when unsaved changes are about to be lost.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;smallerCanvas.png&#34; alt=&#34;Custom size canvas.&#34;&gt;
+&lt;br&gt;
+The canvas can be a custom size.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;toolsInMenuBar.png&#34; alt=&#34;Tools in a menu bar.&#34;&gt;
+&lt;br&gt;
+The tools can be in a menu bar above the canvas or in a pop-out window.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;shapeDemos.png&#34; alt=&#34;Drawing shapes.&#34;&gt;
+&lt;br&gt;
+The program supports drawing many different shapes, as well as selecting an area of the canvas and moving it to a different part of the canvas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;shapeAndHelp.png&#34; alt=&#34;Help dialogue.&#34;&gt;
+&lt;br&gt;
+An in-app knowledge base contains helpful information about the different tools available.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;logging.png&#34; alt=&#34;Logging tool use.&#34;&gt;
+&lt;br&gt;
+A logger allows users to track the amount of time spent using a particular tool.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;otherFills.png&#34; alt=&#34;Random fill and image fill.&#34;&gt;
+&lt;br&gt;
+In addition to regular area fill, some fun features include random fill and image fill.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

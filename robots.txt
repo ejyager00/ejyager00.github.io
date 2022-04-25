@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://ejyager00.github.io/sitemap.xml
+Sitemap: http://ejyager00.github.io/sitemap.xml

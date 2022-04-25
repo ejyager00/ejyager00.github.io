@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google on Eric Yager</title>
+    <link>http://ejyager00.github.io/tags/google/</link>
+    <description>Recent content in google on Eric Yager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ejyager00.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dwyer Google Migration</title>
+      <link>http://ejyager00.github.io/project/dwyer-google-migration/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ejyager00.github.io/project/dwyer-google-migration/</guid>
+      
+      <description>&lt;p&gt;In Spring of 2020, I took a project-based class called Software Design and Development. My main project for the class involved helping a local business, Dwyer instruments.
+Dwyer Instruments decided to migrate from a largely on-premises, Microsoft Office and Windows based infrastructure to Google Cloud based services. The transition disrupted a number of workflows and habits, impacting their overall business processes and creating friction for adoption by their workforce.
+My team partnered with Dwyer IT to mitigate these issues by building a variety of G-Suite based solutions.
+The ultimate goal was the creation of sufficiently similar alternatives to the Microsoft tools, at a production level of quality, that would reduce stress for both IT and the larger Dwyer workforce.
+I personally oversaw the development of two tools, PDF Attach and Security Ticket.&lt;/p&gt;
+&lt;p&gt;Check out our full undergraduate research presentation
+&lt;a class=&#34;link&#34; href=&#34;https://scholar.valpo.edu/cus/868/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;pdf-attach&#34;&gt;PDF Attach&lt;/h2&gt;
+&lt;p&gt;One feature from Microsoft that Dwyer employees liked was a button that allowed a PDF email attachment to be automatically attached to a new draft email.
+Gmail does not have that function by default, but add-ons can add functionality. These were a relatively new Gmail feature at the time of the project, so documentation was scarce, making development slow and difficult.
+The final product is an in-page side window in Gmail and Drive that allows attachments from selected email conversations or Drive files to be automatically attached to an email and sent.&lt;/p&gt;
+&lt;h3 id=&#34;pictures&#34;&gt;Pictures&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;pdfAttach.png&#34; alt=&#34;PDF Attach display.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is the interface that Dwyer employees see when they can send an email with an automatically attached PDF.&lt;/p&gt;
+&lt;h2 id=&#34;security-ticket&#34;&gt;Security Ticket&lt;/h2&gt;
+&lt;p&gt;Dwyer IT also wanted to improve their ability to identify and respond to phishing attempts.
+So, I developed a security ticket add-on for Gmail that allows Dwyer employees to easily forward suspicious emails to the IT department.&lt;/p&gt;
+&lt;h3 id=&#34;pictures-1&#34;&gt;Pictures&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;securityTicket.png&#34; alt=&#34;Security Ticket Display.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is the interface that Dwyer employees see when they receive an email. It allows them to automatically send the email to IT with comments.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

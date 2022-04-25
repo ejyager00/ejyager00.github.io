@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<meta name="author" content="Eric Yager">
+
+
+
+<meta name="description" content="A more interesting tic-tac-toe variant, implemented in Python.">
+
+
+
+<link rel="icon" href="http://ejyager00.github.io/favicon.ico">
+
+
+
+<meta name="keywords" content=" eric  yager  developer  valparaiso  indianapolis ">
+
+
+
+
+
+
+<meta property="og:title" content="Ultimate Tic-Tac-Toe" />
+<meta property="og:description" content="A more interesting tic-tac-toe variant, implemented in Python." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ejyager00.github.io/project/ultimate-ttt/" /><meta property="article:section" content="project" />
+<meta property="article:published_time" content="2022-04-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-04-18T00:00:00+00:00" />
+
+
+
+
+<link rel="canonical" href="http://ejyager00.github.io/project/ultimate-ttt/">
+
+
+
+<meta itemprop="name" content="Ultimate Tic-Tac-Toe">
+<meta itemprop="description" content="A more interesting tic-tac-toe variant, implemented in Python."><meta itemprop="datePublished" content="2022-04-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-04-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1013">
+<meta itemprop="keywords" content="python,python3,game,mathematics,math," />
+
+
+<link media="screen" rel="stylesheet" href='http://ejyager00.github.io/css/common.css'>
+<link media="screen" rel="stylesheet" href='http://ejyager00.github.io/css/content.css'>
+
+
+
+<title>Ultimate Tic-Tac-Toe - Eric Yager</title>
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ultimate Tic-Tac-Toe"/>
+<meta name="twitter:description" content="A more interesting tic-tac-toe variant, implemented in Python."/>
+
+
+
+<link rel="stylesheet" href='http://ejyager00.github.io/css/single.css'>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header">
+  <h1>
+    <a href="http://ejyager00.github.io/">Eric Yager</a>
+  </h1>
+
+  <nav>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/">Home</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/blog/">Blog</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/project/">Projects</a>
+    </span>
+    
+    <span class="nav-bar-item">
+      <a class="link" href="/about/">About</a>
+    </span>
+    
+  </nav>
+</header>
+
+    
+<main id="main" class="post">
+  
+  
+  <h1>Ultimate Tic-Tac-Toe</h1>
+  
+  <article class="content">
+    
+    <p>During the Fall 2020, Spring 2021 school year, Valparaiso University&rsquo;s math club (of which I was vice president) worked on research into the tic-tac-toe variant <a href="https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe">ultimate-tic-tac-toe</a>. I had already written a python program for basic command line gameplay, but I also wanted to write a faster implementation for potential deep learning research purposes. We did not end up with any super exciting results, but it was still a fun project to work on.</p>
+<h2 id="source-code">Source Code</h2>
+<p>The source code for this project is available on <a href="https://github.com/ejyager00/ultimatetictactoe">GitHub</a>.</p>
+<h2 id="demo">Demo</h2>
+<pre tabindex="0"><code>&gt; python3 ultimatetictactoe.py
+Player 1 name:   Eric
+Player 2 name:   Player 2
+
+It&#39;s Eric&#39;s turn!
+The board looks like this:
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+You may go anywhere.
+What move would you like to make?
+(format moves like: (x,y)(x,y). The origin is the top left, so (1,1)(1,1) is the top left corner.
+Your move:    (2,2)(1,1)
+
+It&#39;s Player 2&#39;s turn!
+The board looks like this:
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮X| | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+You must go in grid number (1, 1).
+What move would you like to make?
+(format moves like: (x,y)(x,y). The origin is the top left, so (1,1)(1,1) is the top left corner.
+Your move:    (1,1)(3,3)
+
+It&#39;s Eric&#39;s turn!
+The board looks like this:
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | |O▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮X| | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+You must go in grid number (3, 3).
+What move would you like to make?
+(format moves like: (x,y)(x,y). The origin is the top left, so (1,1)(1,1) is the top left corner.
+Your move:    (3,3)(2,1)
+
+It&#39;s Player 2&#39;s turn!
+The board looks like this:
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | |O▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮X| | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮X| |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+You must go in grid number (2, 1).
+What move would you like to make?
+(format moves like: (x,y)(x,y). The origin is the top left, so (1,1)(1,1) is the top left corner.
+Your move:    (2,1)(2,2)
+
+It&#39;s Eric&#39;s turn!
+The board looks like this:
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | |O▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮X| | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ |O| ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮X| |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+You must go in grid number (2, 2).
+What move would you like to make?
+(format moves like: (x,y)(x,y). The origin is the top left, so (1,1)(1,1) is the top left corner.
+Your move:    (2,2)(1,3)
+
+It&#39;s Player 2&#39;s turn!
+The board looks like this:
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | |O▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮X| |X▮ | |
+-+-+-▮-+-+-▮-+-+-
+ |O| ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮X| |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+You must go in grid number (1, 3).
+What move would you like to make?
+(format moves like: (x,y)(x,y). The origin is the top left, so (1,1)(1,1) is the top left corner.
+Your move:    (1,3)(2,2)
+
+It&#39;s Eric&#39;s turn!
+The board looks like this:
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ |O|
+-+-+-▮-+-+-▮-+-+-
+ | |O▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮X| |X▮ | |
+-+-+-▮-+-+-▮-+-+-
+ |O| ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮X| |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+You must go in grid number (2, 2).
+What move would you like to make?
+(format moves like: (x,y)(x,y). The origin is the top left, so (1,1)(1,1) is the top left corner.
+Your move:    (2,2)(1,2)
+
+It&#39;s Player 2&#39;s turn!
+The board looks like this:
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ |O|
+-+-+-▮-+-+-▮-+-+-
+ | |O▮ | | ▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮X|X|X▮ | |
+-+-+-▮-+-+-▮-+-+-
+ |O| ▮X|X|X▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮X|X|X▮ | |
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ | | ▮ | | ▮ | |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮X| |
+-+-+-▮-+-+-▮-+-+-
+ | | ▮ | | ▮ | |
+</code></pre>
+    
+  </article>
+  
+  <hr style="margin-top: 1em;">
+  <div>
+    <b>Keywords: </b>
+    
+    <a class="link" href='http://ejyager00.github.io/tags/python'>#python</a>
+    
+    <a class="link" href='http://ejyager00.github.io/tags/python3'>#python3</a>
+    
+    <a class="link" href='http://ejyager00.github.io/tags/game'>#game</a>
+    
+    <a class="link" href='http://ejyager00.github.io/tags/mathematics'>#mathematics</a>
+    
+    <a class="link" href='http://ejyager00.github.io/tags/math'>#math</a>
+    
+  </div>
+  
+  <div class="paginator">
+    
+    <a class="link" href="http://ejyager00.github.io/project/dwyer-google-migration/">← prev</a>
+    
+    
+    <a class="link" href="http://ejyager00.github.io/project/space-shooter/">next →</a>
+    
+  </div>
+  <hr style="margin-top: 1em;">
+  <div class="author-info">
+    <img src="/about/EricHeadshot.jpg" alt="Eric Yager">
+    <div>
+      <h5>Author: Eric Yager</h5>
+      <p>Eric is a computer science &amp; mathematics student and teaching assistant at Valparaiso University. 
+He is also President of Valpo&#39;s student chapter of the Association for Computing Machinery (ACM) and Vice President of Valpo&#39;s Math Club. 
+He likes to play chess (especially the bughouse variant), program in Go, and tent camp with friends.</p>
+    </div>
+  </div>
+  <hr style="margin-bottom: 1em;">
+  <div class="comment">
+    
+    
+    
+    
+    
+    
+  </div>
+  
+</main>
+
+    <footer id="footer">
+  <div>
+    <a class="link" id="dark-mode-toggle" onclick="toggleTheme()" href="">Toggle Dark Mode</a>
+  </div>
+  <script src="http://ejyager00.github.io/js/themetoggle.js"></script>
+  <div>
+    <span>© 2021</span> - <span>2022 Eric Yager</span>
+  </div>
+
+  <div class="footnote">
+    <span><a class=link href=/about/#contact-me>Contact Me</a><br>
+Follow me on <a class=link href=https://github.com/ejyager00>GitHub</a>,
+<a class=link href=https://gitlab.com/eric.yager>GitLab</a>,
+<a class=link href=https://www.linkedin.com/in/eric-yager/>LinkedIn</a>,
+<a class=link href=https://twitter.com/EricYager4>Twitter</a>,
+<a class=link href=https://orcid.org/0000-0002-3691-7801>ORCID</a> or
+<a class=link href=/index.xml>RSS</a>.
+</span>
+  </div>
+
+  <div>
+    <span>Powered by
+    <a class="link" href="https://gohugo.io/">Hugo</a>
+    and the
+    <a class="link" href="https://github.com/queensferryme/hugo-theme-texify">TeXify</a>
+    theme. </span>
+  </div>
+</footer>
+
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+
+</body>
+
+</html>
