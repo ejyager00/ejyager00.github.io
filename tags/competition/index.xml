@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>competition on Eric Yager</title>
+    <link>https://ejyager00.github.io/tags/competition/</link>
+    <description>Recent content in competition on Eric Yager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/competition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASA DataFest 2022</title>
+      <link>https://ejyager00.github.io/project/datafest2022/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ejyager00.github.io/project/datafest2022/</guid>
+      
+      <description>&lt;p&gt;Friday, March 25, to Sunday, March 27, was Purdue&amp;rsquo;s competition for the 2022 DataFest. The task for this year was to analyze log data from a video game. According to the DataFest Documentation, &amp;ldquo;The overall goal for the designers of the game is to prevent negative health outcomes such as HIV, sexually transmitted infections, and substance misuse in young at-risk teens (ages 11-14 years) by increasing their perception of risk and acquiring healthy skills to prevent engaging in risky behavior.&amp;rdquo; Purdue graciously hosted us at their DataFest competition which historically has been only open to Purdue students. For that, I am very grateful.&lt;/p&gt;
+&lt;h2 id=&#34;the-project&#34;&gt;The Project&lt;/h2&gt;
+&lt;h3 id=&#34;my-teammates&#34;&gt;My Teammates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ejyager00&#34;&gt;Eric Yager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zlee1&#34;&gt;Zack Lee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/eburkholder1&#34;&gt;Eric Burkholder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ehawkvu&#34;&gt;Ethan Hawk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/anton-eschenauer-3841b61a7/&#34;&gt;Anton Eschenauer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h3&gt;
+&lt;p&gt;From the DataFest Documentation:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The challenge in this DataFest is to help the researchers who created Elm City Stories to see if their game might be useful in understanding real-life behavior.  To do this, they&amp;rsquo;re asking you to try to characterize, measure, observe, and display patterns of play within the game.  One goal for future games is to design them so that the games produce real-time data that is useful to psychology researchers. Your answers will help the Play2Prevent Lab researchers better understand what types of data this might be.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;our-approach&#34;&gt;Our Approach&lt;/h3&gt;
+&lt;p&gt;Our team decided that the best way to help the researchers would be to create a pipeline that would transform the log data into information about gameplay characteristics. We hoped this would allow researchers to characterize the gameplay of individual students. Then, in the future, they could see how these characteristics compare to student outcomes and identify at-risk students.&lt;/p&gt;
+&lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;The source code for this project is available on &lt;a href=&#34;https://github.com/ejyager00/datafest2022&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Slide1.png&#34; alt=&#34;First Presentation Slide&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide2.png&#34; alt=&#34;Second Presentation Slide&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide3.png&#34; alt=&#34;Third Presentation Slide&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide4.png&#34; alt=&#34;Fourth Presentation Slide&#34;&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>
