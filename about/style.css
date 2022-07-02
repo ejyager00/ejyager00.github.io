@@ -1,0 +1,46 @@
+#inpage-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #inpage-nav > a {
+    margin: 0 15px 0 15px;
+  }
+  #form-container {
+    text-align: center;
+    width: 100%;
+  }
+  #form-container > form {
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+  }
+  #form-container input {
+    font-family: 'Latin Modern Roman', 'Times New Roman', serif;
+    width: 100%;
+  }
+  #form-container textarea {
+    margin-top: .25em;
+    font-family: 'Latin Modern Roman', 'Times New Roman', serif;
+    min-height: 5em;
+    width: 100%;
+  }
+  .content > h1 {
+    text-align: center;
+  }
+  .content .resume-entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .content .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content .skills-list > li {
+    width: 33.333%;
+    min-width: 217px;
+  }

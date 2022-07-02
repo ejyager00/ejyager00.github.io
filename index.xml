@@ -184,7 +184,7 @@ Encrypting and decrypting with a vigenere cipher.&lt;/p&gt;
 &lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
 &lt;p&gt;The source code for this project is available on &lt;a href=&#34;https://github.com/ejyager00/lattice_paths&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;More results will be available upon publication. Check back soon!&lt;/p&gt;
+&lt;p&gt;Our undergraduate research symposium presentation is available &lt;a href=&#34;https://scholar.valpo.edu/cus/1081/&#34;&gt;here&lt;/a&gt;. The presentation contains a basic summary of our results. We are currently working on publishing a full-length article in an undergraduate research journal.&lt;/p&gt;
 </description>
       
     </item>
@@ -523,13 +523,14 @@ In addition to regular area fill, some fun features include random fill and imag
 &lt;img src=&#34;eric.jpg&#34; alt=&#34;Eric Yager&#34; style=&#34;border-radius: 20%; width: 40%; display: inline-block; min-width: 216px;&#34;&gt;
 &lt;/p&gt;
 &lt;p&gt;Hello!&lt;/p&gt;
-&lt;p&gt;My name is Eric Yager. I&amp;rsquo;m a senior computer science and math double major at Valparaiso University, but I graduate this May. During my time at Valpo, I&amp;rsquo;ve served as treasurer and (currently) president of Valpo&amp;rsquo;s student chapter of the Association for Computing Machinery (ACM). I&amp;rsquo;ve also been vice president of Valpo&amp;rsquo;s Math Club for the last two years. Additionally, I help students better understand computer science course content as a teaching assistant, a job I started in 2019.&lt;/p&gt;
-&lt;p&gt;Some of my hobbies include playing chess (I&amp;rsquo;m especially fond of the bughouse variant), reading, programming projects in Go, and tent camping with friends.&lt;/p&gt;
+&lt;p&gt;My name is Eric Yager. I just graduated summa cum laude from Valparaiso University with a degree in computer science and math. During my time at Valpo, I served as treasurer and later president of the student chapter of the Association for Computing Machinery (ACM). I also helped lead Valpo&amp;rsquo;s Math Club for the two years as vice president. Additionally, I encouraged students and improved their understanding of key concepts as a computer science teaching assistant, a job I started in 2019.&lt;/p&gt;
+&lt;p&gt;I just started a job as a junior software engineer with &lt;a class=&#34;link&#34; href=&#34;https://www.cummins.com/&#34;&gt;Cummins&lt;/a&gt; in June. I look forward to learning more about developing software with a scrum team, and I&amp;rsquo;m excited to put my skills to work in my first full-time role.&lt;/p&gt;
+&lt;p&gt;Some of my hobbies include playing chess (I&amp;rsquo;m especially fond of the bughouse variant), playing racquetball, reading, programming projects in Go, and tent camping with friends.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in seeing my work, check my &lt;a class=&#34;link&#34; href=&#34;https://github.com/ejyager00&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;resume&#34;&gt;Résumé&lt;/h2&gt;
 &lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
 &lt;div class=&#34;resume-entry&#34;&gt;&lt;span&gt;&lt;b&gt;Valparaiso University&lt;/b&gt;, Valparaiso, IN&lt;/span&gt;&lt;span class=&#34;timespan&#34;&gt;May 2022&lt;/span&gt;&lt;/div&gt;
-Bachelor of Science in Computer Science
+Bachelor of Science in Computer Science, summa cum laude
 &lt;ul&gt;
   &lt;li&gt;GPA: 4.0/4.0&lt;/li&gt;
   &lt;li&gt;2nd Major: Math&lt;/li&gt;
@@ -538,6 +539,14 @@ Bachelor of Science in Computer Science
   &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.valpo.edu/computing-information-sciences/about-us/scholarships-and-awards/&#34;&gt;Louis A. Foster Scholarship&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://www.valpo.edu/mathematics-statistics/scholarships-and-awards/&#34;&gt;Martin David Mundt Scholarship&lt;/a&gt;, and &lt;a class=&#34;link&#34; href=&#34;https://www.valpo.edu/computing-information-sciences/about-us/scholarships-and-awards/&#34;&gt;Commit Award&lt;/a&gt; recipient&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h3&gt;
+&lt;div class=&#34;resume-entry&#34;&gt;&lt;span&gt;&lt;b&gt;Cummins, Inc.&lt;/b&gt;, Indianapolis, IN&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;resume-entry&#34; style=&#34;margin-bottom: 0.25rem;&#34;&gt;&lt;span&gt;Software Engineer I&lt;/span&gt;&lt;span class=&#34;timespan&#34;&gt;June 2022 &amp;#8211; present&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;resume-entry&#34;&gt;&lt;span&gt;Software Engineering Intern&lt;/span&gt;&lt;span class=&#34;timespan&#34;&gt;May 2021 &amp;#8211; August 2021&lt;/span&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed bugs and developed features in web apps with Ktor and Node backends and React frontends.&lt;/li&gt;
+  &lt;li&gt;Utilized CodeCommit version control and SAFe agile framework to participate effectively in a development team.&lt;/li&gt;
+  &lt;li&gt;Crafted DevSecOps implementation plan, jointly with other interns, to address security and adaptability concerns.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;resume-entry&#34;&gt;&lt;span&gt;&lt;b&gt;Custom Crimp &amp;#8211; Continental AG&lt;/b&gt;, Valparaiso, IN&lt;/span&gt;&lt;span class=&#34;timespan&#34;&gt;September 2021 &amp;#8211; May 2022&lt;/span&gt;&lt;/div&gt;
 Software Engineering Intern
 &lt;ul&gt;
@@ -550,13 +559,6 @@ Computer Science Teaching Assistant
 &lt;ul&gt;
   &lt;li&gt;Facilitated student learning of Go, Python, Java, X86 Assembly, and MATLAB during labs and help sessions.&lt;/li&gt;
   &lt;li&gt;Explained the behavior of code and the conventions associated with effective software construction to fellow students.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;resume-entry&#34;&gt;&lt;span&gt;&lt;b&gt;Cummins, Inc.&lt;/b&gt;, Indianapolis, IN&lt;/span&gt;&lt;span class=&#34;timespan&#34;&gt;May 2021 &amp;#8211; August 2021&lt;/span&gt;&lt;/div&gt;
-Software Engineering Intern
-&lt;ul&gt;
-  &lt;li&gt;Fixed bugs and developed features in web apps with Ktor and Node backends and React frontends.&lt;/li&gt;
-  &lt;li&gt;Utilized CodeCommit version control and SAFe agile framework to participate effectively in a development team.&lt;/li&gt;
-  &lt;li&gt;Crafted DevSecOps implementation plan, jointly with other interns, to address security and adaptability concerns.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;resume-entry&#34;&gt;&lt;span&gt;&lt;b&gt;Journey Websites&lt;/b&gt;, Notre Dame, IN&lt;/span&gt;&lt;span class=&#34;timespan&#34;&gt;May 2020 &amp;#8211; May 2021&lt;/span&gt;&lt;/div&gt;
 Full-Stack Developer Intern
@@ -617,7 +619,7 @@ Volunteer
 &lt;p&gt;You can reach out to me on
 &lt;a class=link href=https://www.linkedin.com/in/eric-yager/&gt;LinkedIn&lt;/a&gt;
 or
-&lt;a class=link href=https://twitter.com/EricYager4&gt;Twitter&lt;/a&gt;. Alternatively, send me an email using the form below. If you would like to send an encrypted message, you can use &lt;a class=link href=&#34;key.asc&#34;&gt;this PGP key&lt;/a&gt;.&lt;/p&gt;
+&lt;a class=link href=https://twitter.com/EricYager4&gt;Twitter&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Alternatively, send me an email using the form below. If you would like to send an encrypted message, you can use &lt;a class=link href=&#34;key.asc&#34;&gt;this PGP key&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;form-container&#34;&gt;
   &lt;form action=&#34;https://formspree.io/xgenrkwb&#34; method=&#34;POST&#34;&gt;
     &lt;b&gt;Send Eric an email&lt;/b&gt;&lt;br&gt;
@@ -628,54 +630,15 @@ or
     &lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;style&gt;
-  #inpage-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  #inpage-nav &gt; a {
-    margin: 0 15px 0 15px;
-  }
-  #form-container {
-    text-align: center;
-    width: 100%;
-  }
-  #form-container &gt; form {
-    display: inline-block;
-    width: 100%;
-    max-width: 400px;
-  }
-  #form-container input {
-    font-family: &#39;Latin Modern Roman&#39;, &#39;Times New Roman&#39;, serif;
-    width: 100%;
-  }
-  #form-container textarea {
-    margin-top: .25em;
-    font-family: &#39;Latin Modern Roman&#39;, &#39;Times New Roman&#39;, serif;
-    min-height: 5em;
-    width: 100%;
-  }
-  .content &gt; h1 {
-    text-align: center;
-  }
-  .content .resume-entry {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 0;
-  }
-  .content .skills-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .content .skills-list &gt; li {
-    width: 33.333%;
-    min-width: 217px;
-  }
-&lt;/style&gt;</description>
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;I get a lot of scam message requests on Twitter, so I&amp;rsquo;m sorry if your message gets lost.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
       
     </item>
     
