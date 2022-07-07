@@ -6,7 +6,39 @@
     <description>Recent content in data-science on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inventory Management</title>
+      <link>https://ejyager00.github.io/project/inventory-management/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ejyager00.github.io/project/inventory-management/</guid>
+      
+      <description>&lt;p&gt;In Spring of 2020, I took a project-based data science topics class. My main project for the class involved helping Opportunity Enterprises (OE), a local non-profit organization that helps individuals with developmental disabilities. They offer many different services to these individuals in the Northwest Indiana community, including job placement. In order to improve their job placement efforts, Opportunity Enterprises runs several local businesses, one of which is Simply Amazing Market. Simply Amazing Market sells snacks, candy, and more, with one of their biggest selling items being popcorn.&lt;/p&gt;
+&lt;p&gt;The goal of our project was to offer suggestions for how OE could improve the way they manage their popcorn inventory. They asked us to consider reducing the amount of wasted product caused by overstocking, as well as decreasing the likelihood that they will stock out of a product that is in high demand. We used demand distribution modeling and least squares regression to offer our final suggestions for how inventory levels could be improved.&lt;/p&gt;
+&lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;The source code for this project is available on &lt;a href=&#34;https://github.com/ejyager00/popcorn_inventory/&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Results are quoted from our our deliverable essay.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The results from our model give weekly inventory recommendations for several popcorn flavors in various sizes at different locations. Our model gives the number of units that should be stocked each week in order to minimize waste and reduce the likelihood of stocking out of a product. Three different inventory recommendations will output to the user for each flavor of popcorn, and each size of those flavors. The three outputs are conservative which is more likely to stock out but less likely to produce waste, neutral, and aggressive which is more likely to produce waste but less likely to stock out.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;PIC Math is a program of the Mathematical Association of America (MAA) and the Society for Industrial and Applied Mathematics (SIAM).  Support is provided by the National Science Foundation (NSF grant DMS-1722275).&lt;/p&gt;
+&lt;p&gt;Opportunity Enterprises, our industrial partner for the project, answered questions and provided an opportunity for us to apply our skills.&lt;/p&gt;
+&lt;p&gt;Professor Jon Beagley organized the project and advised us throughout its duration.&lt;/p&gt;
+&lt;p&gt;Professor Sanjay Kumar offered advice about inventory management strategies.&lt;/p&gt;
+&lt;h2 id=&#34;team-members&#34;&gt;Team Members&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ejyager00&#34;&gt;Eric Yager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kbacys&#34;&gt;Katelyn Bacys&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/chrbarua&#34;&gt;Christopher Barua&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jn1bbe&#34;&gt;Joshua Nibbe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
     <item>
       <title>ASA DataFest 2022</title>
       <link>https://ejyager00.github.io/project/datafest2022/</link>

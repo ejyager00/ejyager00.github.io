@@ -6,22 +6,11 @@
     <description>Recent content in Tags on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>competition</title>
-      <link>https://ejyager00.github.io/tags/competition/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ejyager00.github.io/tags/competition/</guid>
-      
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>data-science</title>
       <link>https://ejyager00.github.io/tags/data-science/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ejyager00.github.io/tags/data-science/</guid>
       
@@ -30,11 +19,44 @@
     </item>
     
     <item>
+      <title>forecasting</title>
+      <link>https://ejyager00.github.io/tags/forecasting/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ejyager00.github.io/tags/forecasting/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>inventory</title>
+      <link>https://ejyager00.github.io/tags/inventory/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ejyager00.github.io/tags/inventory/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>python3</title>
       <link>https://ejyager00.github.io/tags/python3/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ejyager00.github.io/tags/python3/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>competition</title>
+      <link>https://ejyager00.github.io/tags/competition/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ejyager00.github.io/tags/competition/</guid>
       
       <description></description>
       
