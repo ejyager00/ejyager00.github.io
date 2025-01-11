@@ -208,12 +208,12 @@ Volunteer
 or
 <a class=link href=https://twitter.com/EricYager4>Twitter</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Alternatively, send me an email using the form below. If you would like to send an encrypted message, you can use <a class=link href="key.asc">this PGP key</a>.</p>
 <div id="form-container">
-  <form action="https://formspree.io/xgenrkwb" method="POST">
+  <form action="https://ericyagerform.eyager.workers.dev" method="POST">
     <b>Send Eric an email</b><br>
-    <input type="hidden" name="_subject" value="Contact request from personal website">
     <input type="text" name="name" placeholder="Your name" required=""><br>
-    <input type="email" name="_replyto" placeholder="Email address" required=""><br>
+    <input type="email" name="email" placeholder="Email address" required=""><br>
     <textarea name="message" placeholder="Your message" required=""></textarea><br>
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAAA5HO7emmGjV9DWR"></div>
     <button type="submit">Send</button>
   </form>
 </div>
@@ -235,6 +235,7 @@ or
     <a class="link" id="dark-mode-toggle" onclick="toggleTheme()" href="">Toggle Dark Mode</a>
   </div>
   <script src="https://ejyager00.github.io/js/themetoggle.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
   <div>
     <span>© 2021</span> - <span>2022 Eric Yager</span>
   </div>
