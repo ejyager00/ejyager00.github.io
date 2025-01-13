@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>combinatorics on Eric Yager</title>
-    <link>https://ejyager00.github.io/tags/combinatorics/</link>
+    <link>https://ericyager.net/tags/combinatorics/</link>
     <description>Recent content in combinatorics on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ericyager.net/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lattice Paths</title>
-      <link>https://ejyager00.github.io/project/lattice-paths/</link>
+      <link>https://ericyager.net/project/lattice-paths/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/project/lattice-paths/</guid>
+      <guid>https://ericyager.net/project/lattice-paths/</guid>
       
       <description>&lt;p&gt;During the Fall 2021, Spring 2022 school year, I worked on a research team studing the mathematical concept of &lt;em&gt;k&lt;/em&gt;-distinct &lt;a href=&#34;https://en.wikipedia.org/wiki/Lattice_path#North-East_lattice_paths&#34;&gt;lattice paths&lt;/a&gt;. Our research involved finding maximum cardinality sets of lattice paths on a paricular size lattice such that no path overlapped with another on &lt;em&gt;k&lt;/em&gt; or more edges. We will be publishing the results of our research in the near future.&lt;/p&gt;
 &lt;p&gt;I led the programming effort on this project to develop code to test a greedy algorithm and a brute force algorithm for generating maximum sets of lattice paths. This was the first project I worked on for which I made extensive use of Go. I initially wrote most of the codebase in Python, but it was not fast enough for extended work on brute-force computation.&lt;/p&gt;

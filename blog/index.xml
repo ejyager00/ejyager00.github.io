@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Eric Yager</title>
-    <link>https://ejyager00.github.io/blog/</link>
+    <link>https://ericyager.net/blog/</link>
     <description>Recent content in Blog on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://ejyager00.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://ericyager.net/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

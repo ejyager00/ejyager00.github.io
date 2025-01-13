@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>competition on Eric Yager</title>
-    <link>https://ejyager00.github.io/tags/competition/</link>
+    <link>https://ericyager.net/tags/competition/</link>
     <description>Recent content in competition on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/competition/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ericyager.net/tags/competition/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASA DataFest 2022</title>
-      <link>https://ejyager00.github.io/project/datafest2022/</link>
+      <link>https://ericyager.net/project/datafest2022/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/project/datafest2022/</guid>
+      <guid>https://ericyager.net/project/datafest2022/</guid>
       
       <description>&lt;p&gt;Friday, March 25, to Sunday, March 27, was Purdue&amp;rsquo;s competition for the 2022 DataFest. The task for this year was to analyze log data from a video game. According to the DataFest Documentation, &amp;ldquo;The overall goal for the designers of the game is to prevent negative health outcomes such as HIV, sexually transmitted infections, and substance misuse in young at-risk teens (ages 11-14 years) by increasing their perception of risk and acquiring healthy skills to prevent engaging in risky behavior.&amp;rdquo; Purdue graciously hosted us at their DataFest competition which historically has been only open to Purdue students. For that, I am very grateful.&lt;/p&gt;
 &lt;h2 id=&#34;the-project&#34;&gt;The Project&lt;/h2&gt;

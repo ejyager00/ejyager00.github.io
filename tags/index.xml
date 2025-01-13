@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Eric Yager</title>
-    <link>https://ejyager00.github.io/tags/</link>
+    <link>https://ericyager.net/tags/</link>
     <description>Recent content in Tags on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ericyager.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>data-science</title>
-      <link>https://ejyager00.github.io/tags/data-science/</link>
+      <link>https://ericyager.net/tags/data-science/</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/data-science/</guid>
+      <guid>https://ericyager.net/tags/data-science/</guid>
       
       <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>forecasting</title>
-      <link>https://ejyager00.github.io/tags/forecasting/</link>
+      <link>https://ericyager.net/tags/forecasting/</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/forecasting/</guid>
+      <guid>https://ericyager.net/tags/forecasting/</guid>
       
       <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>inventory</title>
-      <link>https://ejyager00.github.io/tags/inventory/</link>
+      <link>https://ericyager.net/tags/inventory/</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/inventory/</guid>
+      <guid>https://ericyager.net/tags/inventory/</guid>
       
       <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>python3</title>
-      <link>https://ejyager00.github.io/tags/python3/</link>
+      <link>https://ericyager.net/tags/python3/</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/python3/</guid>
+      <guid>https://ericyager.net/tags/python3/</guid>
       
       <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>competition</title>
-      <link>https://ejyager00.github.io/tags/competition/</link>
+      <link>https://ericyager.net/tags/competition/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/competition/</guid>
+      <guid>https://ericyager.net/tags/competition/</guid>
       
       <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>command-line-app</title>
-      <link>https://ejyager00.github.io/tags/command-line-app/</link>
+      <link>https://ericyager.net/tags/command-line-app/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/command-line-app/</guid>
+      <guid>https://ericyager.net/tags/command-line-app/</guid>
       
       <description></description>
       
@@ -75,10 +75,10 @@
     
     <item>
       <title>game</title>
-      <link>https://ejyager00.github.io/tags/game/</link>
+      <link>https://ericyager.net/tags/game/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/game/</guid>
+      <guid>https://ericyager.net/tags/game/</guid>
       
       <description></description>
       
@@ -86,10 +86,10 @@
     
     <item>
       <title>go</title>
-      <link>https://ejyager00.github.io/tags/go/</link>
+      <link>https://ericyager.net/tags/go/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/go/</guid>
+      <guid>https://ericyager.net/tags/go/</guid>
       
       <description></description>
       
@@ -97,10 +97,10 @@
     
     <item>
       <title>golang</title>
-      <link>https://ejyager00.github.io/tags/golang/</link>
+      <link>https://ericyager.net/tags/golang/</link>
       <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/golang/</guid>
+      <guid>https://ericyager.net/tags/golang/</guid>
       
       <description></description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title>cryptography</title>
-      <link>https://ejyager00.github.io/tags/cryptography/</link>
+      <link>https://ericyager.net/tags/cryptography/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/cryptography/</guid>
+      <guid>https://ericyager.net/tags/cryptography/</guid>
       
       <description></description>
       
@@ -119,10 +119,10 @@
     
     <item>
       <title>decryption</title>
-      <link>https://ejyager00.github.io/tags/decryption/</link>
+      <link>https://ericyager.net/tags/decryption/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/decryption/</guid>
+      <guid>https://ericyager.net/tags/decryption/</guid>
       
       <description></description>
       
@@ -130,10 +130,10 @@
     
     <item>
       <title>encryption</title>
-      <link>https://ejyager00.github.io/tags/encryption/</link>
+      <link>https://ericyager.net/tags/encryption/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/encryption/</guid>
+      <guid>https://ericyager.net/tags/encryption/</guid>
       
       <description></description>
       
@@ -141,10 +141,10 @@
     
     <item>
       <title>combinatorics</title>
-      <link>https://ejyager00.github.io/tags/combinatorics/</link>
+      <link>https://ericyager.net/tags/combinatorics/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/combinatorics/</guid>
+      <guid>https://ericyager.net/tags/combinatorics/</guid>
       
       <description></description>
       
@@ -152,10 +152,10 @@
     
     <item>
       <title>python</title>
-      <link>https://ejyager00.github.io/tags/python/</link>
+      <link>https://ericyager.net/tags/python/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/python/</guid>
+      <guid>https://ericyager.net/tags/python/</guid>
       
       <description></description>
       
@@ -163,10 +163,10 @@
     
     <item>
       <title>api</title>
-      <link>https://ejyager00.github.io/tags/api/</link>
+      <link>https://ericyager.net/tags/api/</link>
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/api/</guid>
+      <guid>https://ericyager.net/tags/api/</guid>
       
       <description></description>
       
@@ -174,10 +174,10 @@
     
     <item>
       <title>server</title>
-      <link>https://ejyager00.github.io/tags/server/</link>
+      <link>https://ericyager.net/tags/server/</link>
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/server/</guid>
+      <guid>https://ericyager.net/tags/server/</guid>
       
       <description></description>
       
@@ -185,10 +185,10 @@
     
     <item>
       <title>web</title>
-      <link>https://ejyager00.github.io/tags/web/</link>
+      <link>https://ericyager.net/tags/web/</link>
       <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/web/</guid>
+      <guid>https://ericyager.net/tags/web/</guid>
       
       <description></description>
       
@@ -196,10 +196,10 @@
     
     <item>
       <title>acm</title>
-      <link>https://ejyager00.github.io/tags/acm/</link>
+      <link>https://ericyager.net/tags/acm/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/acm/</guid>
+      <guid>https://ericyager.net/tags/acm/</guid>
       
       <description></description>
       
@@ -207,10 +207,10 @@
     
     <item>
       <title>pygame</title>
-      <link>https://ejyager00.github.io/tags/pygame/</link>
+      <link>https://ericyager.net/tags/pygame/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/pygame/</guid>
+      <guid>https://ericyager.net/tags/pygame/</guid>
       
       <description></description>
       
@@ -218,10 +218,10 @@
     
     <item>
       <title>math</title>
-      <link>https://ejyager00.github.io/tags/math/</link>
+      <link>https://ericyager.net/tags/math/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/math/</guid>
+      <guid>https://ericyager.net/tags/math/</guid>
       
       <description></description>
       
@@ -229,10 +229,10 @@
     
     <item>
       <title>mathematics</title>
-      <link>https://ejyager00.github.io/tags/mathematics/</link>
+      <link>https://ericyager.net/tags/mathematics/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/mathematics/</guid>
+      <guid>https://ericyager.net/tags/mathematics/</guid>
       
       <description></description>
       
@@ -240,10 +240,10 @@
     
     <item>
       <title>google</title>
-      <link>https://ejyager00.github.io/tags/google/</link>
+      <link>https://ericyager.net/tags/google/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/google/</guid>
+      <guid>https://ericyager.net/tags/google/</guid>
       
       <description></description>
       
@@ -251,10 +251,10 @@
     
     <item>
       <title>gsuite</title>
-      <link>https://ejyager00.github.io/tags/gsuite/</link>
+      <link>https://ericyager.net/tags/gsuite/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/gsuite/</guid>
+      <guid>https://ericyager.net/tags/gsuite/</guid>
       
       <description></description>
       
@@ -262,10 +262,10 @@
     
     <item>
       <title>javascript</title>
-      <link>https://ejyager00.github.io/tags/javascript/</link>
+      <link>https://ericyager.net/tags/javascript/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/javascript/</guid>
+      <guid>https://ericyager.net/tags/javascript/</guid>
       
       <description></description>
       
@@ -273,10 +273,10 @@
     
     <item>
       <title>desktop-app</title>
-      <link>https://ejyager00.github.io/tags/desktop-app/</link>
+      <link>https://ericyager.net/tags/desktop-app/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/desktop-app/</guid>
+      <guid>https://ericyager.net/tags/desktop-app/</guid>
       
       <description></description>
       
@@ -284,10 +284,10 @@
     
     <item>
       <title>gui</title>
-      <link>https://ejyager00.github.io/tags/gui/</link>
+      <link>https://ericyager.net/tags/gui/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/gui/</guid>
+      <guid>https://ericyager.net/tags/gui/</guid>
       
       <description></description>
       
@@ -295,10 +295,10 @@
     
     <item>
       <title>java</title>
-      <link>https://ejyager00.github.io/tags/java/</link>
+      <link>https://ericyager.net/tags/java/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/java/</guid>
+      <guid>https://ericyager.net/tags/java/</guid>
       
       <description></description>
       
@@ -306,10 +306,10 @@
     
     <item>
       <title>javafx</title>
-      <link>https://ejyager00.github.io/tags/javafx/</link>
+      <link>https://ericyager.net/tags/javafx/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/tags/javafx/</guid>
+      <guid>https://ericyager.net/tags/javafx/</guid>
       
       <description></description>
       

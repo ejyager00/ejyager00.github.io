@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>encryption on Eric Yager</title>
-    <link>https://ejyager00.github.io/tags/encryption/</link>
+    <link>https://ericyager.net/tags/encryption/</link>
     <description>Recent content in encryption on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ericyager.net/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Encryption with Go</title>
-      <link>https://ejyager00.github.io/project/go-encryption/</link>
+      <link>https://ericyager.net/project/go-encryption/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/project/go-encryption/</guid>
+      <guid>https://ericyager.net/project/go-encryption/</guid>
       
       <description>&lt;p&gt;In Spring 2022, I took a course about cryptography. For some of the assignments, we needed to implement encryption algorithms. I did not implement any that would be considered secure by modern standards. However, I did code up a couple of command line apps in Go to encrypt using cipher techniques. The techniques I implemented are the classic Caesar cipher and the historically-renowned Vigenère cipher.&lt;/p&gt;
 &lt;p&gt;These projects weren&amp;rsquo;t too challenging, but I learned about command line flags in Go and practiced file handling.&lt;/p&gt;

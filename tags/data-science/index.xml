@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>data-science on Eric Yager</title>
-    <link>https://ejyager00.github.io/tags/data-science/</link>
+    <link>https://ericyager.net/tags/data-science/</link>
     <description>Recent content in data-science on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ericyager.net/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inventory Management</title>
-      <link>https://ejyager00.github.io/project/inventory-management/</link>
+      <link>https://ericyager.net/project/inventory-management/</link>
       <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/project/inventory-management/</guid>
+      <guid>https://ericyager.net/project/inventory-management/</guid>
       
       <description>&lt;p&gt;In Spring of 2020, I took a project-based data science topics class. My main project for the class involved helping Opportunity Enterprises (OE), a local non-profit organization that helps individuals with developmental disabilities. They offer many different services to these individuals in the Northwest Indiana community, including job placement. In order to improve their job placement efforts, Opportunity Enterprises runs several local businesses, one of which is Simply Amazing Market. Simply Amazing Market sells snacks, candy, and more, with one of their biggest selling items being popcorn.&lt;/p&gt;
 &lt;p&gt;The goal of our project was to offer suggestions for how OE could improve the way they manage their popcorn inventory. They asked us to consider reducing the amount of wasted product caused by overstocking, as well as decreasing the likelihood that they will stock out of a product that is in high demand. We used demand distribution modeling and least squares regression to offer our final suggestions for how inventory levels could be improved.&lt;/p&gt;
@@ -41,10 +41,10 @@
     
     <item>
       <title>ASA DataFest 2022</title>
-      <link>https://ejyager00.github.io/project/datafest2022/</link>
+      <link>https://ericyager.net/project/datafest2022/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/project/datafest2022/</guid>
+      <guid>https://ericyager.net/project/datafest2022/</guid>
       
       <description>&lt;p&gt;Friday, March 25, to Sunday, March 27, was Purdue&amp;rsquo;s competition for the 2022 DataFest. The task for this year was to analyze log data from a video game. According to the DataFest Documentation, &amp;ldquo;The overall goal for the designers of the game is to prevent negative health outcomes such as HIV, sexually transmitted infections, and substance misuse in young at-risk teens (ages 11-14 years) by increasing their perception of risk and acquiring healthy skills to prevent engaging in risky behavior.&amp;rdquo; Purdue graciously hosted us at their DataFest competition which historically has been only open to Purdue students. For that, I am very grateful.&lt;/p&gt;
 &lt;h2 id=&#34;the-project&#34;&gt;The Project&lt;/h2&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mathematics on Eric Yager</title>
-    <link>https://ejyager00.github.io/tags/mathematics/</link>
+    <link>https://ericyager.net/tags/mathematics/</link>
     <description>Recent content in mathematics on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ericyager.net/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ultimate Tic-Tac-Toe</title>
-      <link>https://ejyager00.github.io/project/ultimate-ttt/</link>
+      <link>https://ericyager.net/project/ultimate-ttt/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/project/ultimate-ttt/</guid>
+      <guid>https://ericyager.net/project/ultimate-ttt/</guid>
       
       <description>&lt;p&gt;During the Fall 2020, Spring 2021 school year, Valparaiso University&amp;rsquo;s math club (of which I was vice president) worked on research into the tic-tac-toe variant &lt;a href=&#34;https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe&#34;&gt;ultimate-tic-tac-toe&lt;/a&gt;. I had already written a python program for basic command line gameplay, but I also wanted to write a faster implementation for potential deep learning research purposes. We did not end up with any super exciting results, but it was still a fun project to work on.&lt;/p&gt;
 &lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;

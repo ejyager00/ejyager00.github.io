@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>javascript on Eric Yager</title>
-    <link>https://ejyager00.github.io/tags/javascript/</link>
+    <link>https://ericyager.net/tags/javascript/</link>
     <description>Recent content in javascript on Eric Yager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ejyager00.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ericyager.net/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dwyer Google Migration</title>
-      <link>https://ejyager00.github.io/project/dwyer-google-migration/</link>
+      <link>https://ericyager.net/project/dwyer-google-migration/</link>
       <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ejyager00.github.io/project/dwyer-google-migration/</guid>
+      <guid>https://ericyager.net/project/dwyer-google-migration/</guid>
       
       <description>&lt;p&gt;In Spring of 2020, I took a project-based class called Software Design and Development. My main project for the class involved helping a local business, Dwyer instruments.
 Dwyer Instruments decided to migrate from a largely on-premises, Microsoft Office and Windows based infrastructure to Google Cloud based services. The transition disrupted a number of workflows and habits, impacting their overall business processes and creating friction for adoption by their workforce.
